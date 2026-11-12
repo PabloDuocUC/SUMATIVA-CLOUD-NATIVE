@@ -1,7 +1,7 @@
 # Tickets Service
 
 Sistema de Gestión de Reservas de Eventos con Tickets.
-Desarrollo Cloud Native (CDY2204) · Experiencia 1 · Semana 3 · DuocUC
+Desarrollo Cloud Native.
 
 Microservicio Spring Boot que genera tickets en PDF, los guarda temporalmente en **Amazon EFS**, los sube automáticamente a **Amazon S3** organizados por evento y usuario, y se despliega en **EC2** mediante un pipeline de **GitHub Actions** que publica la imagen en **Docker Hub**.
 

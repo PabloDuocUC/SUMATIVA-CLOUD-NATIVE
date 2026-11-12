@@ -29,6 +29,7 @@ jobs:
 
   # Construye la imagen, la publica en Docker Hub y la despliega en EC2
   desplegar:
+    needs: pruebas
     runs-on: ubuntu-latest
     steps:
       - name: Descargar el codigo

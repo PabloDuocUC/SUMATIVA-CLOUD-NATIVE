@@ -5,6 +5,10 @@ Desarrollo Cloud Native.
 
 Microservicio Spring Boot que genera tickets en PDF, los guarda temporalmente en **Amazon EFS**, los sube automáticamente a **Amazon S3** organizados por evento y usuario, y se despliega en **EC2** mediante un pipeline de **GitHub Actions** que publica la imagen en **Docker Hub**.
 
+## Video Demostrativo:
+
+[Ver video de la evaluación](https://youtu.be/j80cthBL-B8)
+
 ## Arquitectura
 
 ```
